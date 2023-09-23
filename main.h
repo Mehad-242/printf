@@ -86,5 +86,6 @@ char *get_precision(char *p, flags_t flags, va_list list);
 int print_form_to(char *start, char *stop, char *except);
 int print_rev(va_list list, flags_t *flags);
 int print_rot13(va_list list, flags_t *flags);
+char *convert(long int, int base, int flag, flags_t *flags);
 
 #endif
