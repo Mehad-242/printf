@@ -45,7 +45,9 @@ int print_rev(va_list list, flags_t *flags)
 	return (i);
 }
 /**
- *
+ * print_rot13 - print
+ * @list: parameter
+ * @flags: argument
  *
  * Return: number bttes printed
  */
